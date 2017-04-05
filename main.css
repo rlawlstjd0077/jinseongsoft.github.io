@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 body{
   font-family: 'Hanna';
@@ -84,14 +85,17 @@ ol{
 .post-content{
   width: 80%;
   margin-top: 30px;
-  line-height:1.2em;
-  font-family:‘Noto Sans KR’, cursive;
+  line-height:1.5em;
+  font-family:'Noto Sans KR', sans-serif;
+  text-align: justify;
 }
 .post-content p {
   font-size: 14px;
 }
 .post-date{
   position: absolute;
-  left: 0px;
+  left: 40px;
   top: 25px;
+  font-weight: bold;
+  font-family:'Noto Sans KR', sans-serif;
 }
