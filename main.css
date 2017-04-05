@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+  font-family: 'Hanna';
+}
+/*      Header Style       */
+.main-nav{
+  padding: 0;
+  position:relative;
+  right:0;left:50px;
+  display:flex;
+  justify-content:left;
+}
+li{
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+.main-nav-list{
+  text-decoration: none;
+}
+.main-nav-list > p:hover{
+  opacity: 1;
+  color: black;
+}
+.main-nav-list > p{
+  margin-top: 20px;
+  float: top;
+  opacity: 0.5;
+  font-size: 26px;
+  color: black;
+}
+li.logo-li{
+  width: 250px;
+}
+/*      main Style       */
+ol{
+  list-style: none;
+  position: relative;
+}
+.main{
+  width: 100%;
+}
+.post-list{
+  vertical-align: baseline;
+  list-style: none;
+  display: block;
+  position: relative;
+  padding: 70px 100px 0 100px;
+}
+.post-list li{
+  border-width: 0 0 1.2px 0;
+  border-style: solid;
+  border-color: #D2D2D2;
+  width: 100%;
+  height: 300px;
+  display: block;
+  vertical-align: baseline;
+  position: relative;
+  text-align: left;
+}
+.post-list li h1 a{
+  position: relative;
+  margin-left: 0;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+.post-list li h1 a:hover{
+  background-color: yellow;
+}
+.post-list li h2{
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+.post-body{
+  margin-left: 240px;
+}
+.post-content{
+  width: 80%;
+  margin-top: 30px;
+  line-height:1.2em;
+  font-family:‘Noto Sans KR’, cursive;
+}
+.post-content p {
+  font-size: 14px;
+}
+.post-date{
+  position: absolute;
+  left: 0px;
+  top: 25px;
+}
