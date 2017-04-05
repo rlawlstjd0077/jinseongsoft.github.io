@@ -1,1 +1,1 @@
-# [https://rlawlstjd0077.github.io/jinseongsoft.github.io]
+- https://rlawlstjd0077.github.io/jinseongsoft.github.io
