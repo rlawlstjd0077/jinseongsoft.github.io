@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 body{
   font-family: 'Hanna';
@@ -31,6 +31,19 @@ li{
   opacity: 0.5;
   font-size: 26px;
   color: black;
+}
+.main-nav-list::after {
+    height: 50px;
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: black;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+}
+.main-nav-list:hover::after{
+    width: 100%;
 }
 li.logo-li{
   width: 250px;
@@ -67,6 +80,8 @@ ol{
   color: black;
   font-weight: normal;
   text-decoration: none;
+  transition: background-color .5s;
+
 }
 .post-list li h1 a:hover{
   background-color: yellow;
